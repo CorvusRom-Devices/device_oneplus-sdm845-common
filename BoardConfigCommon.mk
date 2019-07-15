@@ -92,9 +92,6 @@ TARGET_CAMERA_NEEDS_CLIENT_INFO := true
 USE_CAMERA_STUB := true
 TARGET_USES_MEDIA_EXTENSIONS := false
 
-# Charger
-BOARD_CHARGER_DISABLE_INIT_BLANK := true
-
 # Dex
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
