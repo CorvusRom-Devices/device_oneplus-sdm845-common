@@ -26,6 +26,17 @@ on boot
     chown system graphics /sys/class/drm/card0/sde-crtc-0/measured_fps
     chmod 0660 /sys/class/drm/card0/sde-crtc-0/measured_fps
 
+service charger /system/bin/charger
+    class charger
+    user system
+    group system graphics input
+    capabilities SYS_BOOT
+    seclabel u:r:charger:s0
+
+service qbcharger /system/bin/charger -m 1
+    disabled
+    oneshot
+
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
 
