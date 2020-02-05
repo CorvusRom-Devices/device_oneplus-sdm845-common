@@ -64,4 +64,7 @@
 
     <string name="fps_info_title">FPS overlay</string>
     <string name="fps_info_summary">Show overlay with with current frames per second</string>
+
+     <!-- FPS Counter -->
+    <string name="fps_info_title">FPS Counter</string>
 </resources>
