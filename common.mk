@@ -20,6 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/sdm845-common/sdm845-common-vendor.mk)
 
+# Inherit packages from vendor/addons/oneplus/camera
+$(call inherit-product, vendor/addons/oneplus/camera/config.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -89,8 +92,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/prebuilts/etc/permissions/com.google.android.GoogleCamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.GoogleCamera.xml
 
+# Camera HIDL
+    vendor.oneplus.camera.CameraHIDL@1.0 \
+    vendor.oneplus.camera.CameraHIDL@1.0-adapter-helper \
+    vendor.oneplus.camera.CameraHIDL-V1.0-java
+
 # Common init scripts
 PRODUCT_PACKAGES += \
+    init.opcamera.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
     ueventd.qcom.rc

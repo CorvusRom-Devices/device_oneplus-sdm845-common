@@ -22,5 +22,11 @@
     "target_path" : "packages/apps/PixelLiveWallpaper",
     "branch"      : "ten",
     "remote"      : "gitlab"
+  },
+  {
+    "repository"  : "chandu078/vendor_addons_oneplus_camera",
+    "target_path" : "vendor/addons/oneplus/camera"
+    "branch"      : "sdm845"
+    "remote"      : "github"  
   }
 ]
