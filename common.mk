@@ -95,15 +95,19 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
-# Camera
+# Camera HIDL
 PRODUCT_PACKAGES += \
     GoogleCamera \
     libcvface_api \
-    libqti-perfd-client
+    libqti-perfd-client \
+    vendor.oneplus.camera.CameraHIDL@1.0 \
+    vendor.oneplus.camera.CameraHIDL@1.0-adapter-helper \
+    vendor.oneplus.camera.CameraHIDL-V1.0-java
 
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.devicesettings.rc \
+    init.opcamera.rc \
     init.qcom.rc \
     init.recovery.qcom.rc \
     ueventd.qcom.rc

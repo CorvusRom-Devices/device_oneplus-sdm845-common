@@ -20,7 +20,7 @@
   {
     "repository"  : "CorvusRom-Devices/vendor_addons_oneplus_apps",
     "target_path" : "vendor/addons/oneplus/apps",
-    "branch"      : "gallery",
+    "branch"      : "11",
     "remote"      : "github"  
   },
   {
