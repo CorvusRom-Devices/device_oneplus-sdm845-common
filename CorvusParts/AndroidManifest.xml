@@ -24,7 +24,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
 
-    <protected-broadcast android:name=">org.lineageos.device.DeviceSettings.UPDATE_SLIDER_POSITION" />
+    <protected-broadcast android:name=">com.corvus.parts.UPDATE_SLIDER_POSITION" />
 
     <uses-sdk
         android:minSdkVersion="24" />
@@ -101,7 +101,7 @@
         </service>
 
         <service
-            android:name=".DeviceSettings.LogTile"
+            android:name=".LogTile"
             android:icon="@drawable/ic_qs_log"
             android:label="@string/quick_settings_log_tile_label"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -114,7 +114,7 @@
         <!-- Search Provider -->
         <provider
             android:name=".ConfigPanelSearchIndexablesProvider"
-            android:authorities="org.lineageos.device"
+            android:authorities="com.corvus.parts"
             android:multiprocess="false"
             android:grantUriPermissions="true"
             android:permission="android.permission.READ_SEARCH_INDEXABLES"

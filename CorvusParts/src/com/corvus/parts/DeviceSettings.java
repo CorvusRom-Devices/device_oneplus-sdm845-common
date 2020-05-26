@@ -20,7 +20,9 @@ package com.corvus.parts;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.res.Resources;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.text.TextUtils;
@@ -38,8 +40,10 @@ import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.TwoStatePreference;
+import androidx.preference.PreferenceManager;
 
 import com.corvus.parts.FileUtils;
+import com.corvus.parts.FPSInfoService;
 
 public class DeviceSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -112,16 +116,18 @@ public class DeviceSettings extends PreferenceFragment
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        Constants.setPreferenceInt(getContext(), preference.getKey(), Integer.parseInt((String) newValue));
 
         if (preference == mFpsInfo) {
             boolean enabled = (Boolean) newValue;
-            Intent fpsinfo = new Intent(this.getContext(), .FPSInfoService.class);
+            Intent fpsinfo = new Intent(this.getContext(), FPSInfoService.class);
             if (enabled) {
                 this.getContext().startService(fpsinfo);
             } else {
                 this.getContext().stopService(fpsinfo);
             }
+        } else {
+            Constants.setPreferenceInt(getContext(), preference.getKey(), Integer.parseInt((String) newValue));
+        }
         return true;
     }
 
