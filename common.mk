@@ -89,7 +89,7 @@ PRODUCT_PACKAGES += \
 
 # Device Settings
 PRODUCT_PACKAGES += \
-    DeviceSettings
+    CorvusParts
 
 # Display
 PRODUCT_PACKAGES += \
