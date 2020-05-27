@@ -111,6 +111,10 @@
             </intent-filter>
         </service>
 
+        <!-- AutoHBM-->
+        <service
+            android:name=".AutoHighBrightnessModeService" />
+
         <!-- Search Provider -->
         <provider
             android:name=".ConfigPanelSearchIndexablesProvider"

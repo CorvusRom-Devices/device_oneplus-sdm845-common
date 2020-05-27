@@ -49,6 +49,8 @@ public class Startup extends BroadcastReceiver {
         if (enabled) {
             context.startService(new Intent(context, FPSInfoService.class));
         }
+
+        Utils.enableService(context);
     }
 
     private void restore(String file, boolean enabled) {
