@@ -1,14 +1,17 @@
 [
   {
     "repository"  : "device_oneplus_common",
-    "target_path" : "device/oneplus/common"
+    "target_path" : "device/oneplus/common",
+    "branch": "10"
   },
   {
     "repository"  : "kernel_oneplus_sdm845",
-    "target_path" : "kernel/oneplus/sdm845"
+    "target_path" : "kernel/oneplus/sdm845",
+    "branch": "10"
   },
   {
     "repository"  : "vendor_oneplus",
-    "target_path" : "vendor/oneplus"
+    "target_path" : "vendor/oneplus",
+    "branch": "10"
   }
 ]
