@@ -22,28 +22,4 @@ cc_library_static {
         "system/core/base/include",
         "system/core/init"
     ]
-cc_binary {
-    name: "lineage.livedisplay@2.0-service.oneplus_sdm845",
-    init_rc: ["lineage.livedisplay@2.0-service.oneplus_sdm845.rc"],
-    defaults: ["hidl_defaults"],
-    relative_install_path: "hw",
-    srcs: [
-        ":vendor.lineage.livedisplay@2.0-sdm-pa",
-        ":vendor.lineage.livedisplay@2.0-sdm-utils",
-        "DisplayModes.cpp",
-        "SunlightEnhancement.cpp",
-        "service.cpp",
-    ],
-    shared_libs: [
-        "libbase",
-        "libbinder",
-        "libhidlbase",
-        "libhidltransport",
-        "libutils",
-        "vendor.lineage.livedisplay@2.0",
-    ],
-    header_libs: [
-        "vendor.lineage.livedisplay@2.0-sdm-headers",
-    ],
-    cflags: ["-DLIVES_IN_SYSTEM"],
 }
