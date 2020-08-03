@@ -109,6 +109,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CorvusParts
 
+# OPScreenRecorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
+
 # Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
