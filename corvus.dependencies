@@ -2,19 +2,25 @@
   {
     "repository"  : "CorvusRom-Devices/device_oneplus_common",
     "target_path" : "device/oneplus/common",
-    "branch": "10",
-    "remote"     : "github"
+    "branch"      : "10",
+    "remote"      : "github"
   },
   {
     "repository"  : "CorvusRom-Devices/kernel_oneplus_sdm845",
     "target_path" : "kernel/oneplus/sdm845",
-    "branch": "10",
-    "remote"     : "github"
+    "branch"      : "10",
+    "remote"      : "github"
   },
   {
     "repository"  : "CorvusRom-Devices/vendor_oneplus",
     "target_path" : "vendor/oneplus",
-    "branch": "10",
-    "remote"     : "github"
+    "branch"      : "10",
+    "remote"      : "github"
+  },
+  {
+    "repository"  : "PixelExperience/packages_apps_PixelLiveWallpaper",
+    "target_path" : "packages/apps/PixelLiveWallpaper",
+    "branch"      : "ten",
+    "remote"      : "gitlab"
   }
 ]
