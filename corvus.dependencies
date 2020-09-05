@@ -1,17 +1,20 @@
 [
   {
-    "repository"  : "device_oneplus_common",
+    "repository"  : "CorvusRom-Devices/device_oneplus_common",
     "target_path" : "device/oneplus/common",
-    "branch": "10"
+    "branch": "10",
+    "remote"     : "github"
   },
   {
-    "repository"  : "kernel_oneplus_sdm845",
+    "repository"  : "CorvusRom-Devices/kernel_oneplus_sdm845",
     "target_path" : "kernel/oneplus/sdm845",
-    "branch": "10"
+    "branch": "10",
+    "remote"     : "github"
   },
   {
-    "repository"  : "vendor_oneplus",
+    "repository"  : "CorvusRom-Devices/vendor_oneplus",
     "target_path" : "vendor/oneplus",
-    "branch": "10"
+    "branch": "10",
+    "remote"     : "github"
   }
 ]
