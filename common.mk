@@ -93,6 +93,7 @@ PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/prebuilts/etc/permissions/com.google.android.GoogleCamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.GoogleCamera.xml
 
 # Camera HIDL
+PRODUCT_PACKAGES += \
     vendor.oneplus.camera.CameraHIDL@1.0 \
     vendor.oneplus.camera.CameraHIDL@1.0-adapter-helper \
     vendor.oneplus.camera.CameraHIDL-V1.0-java
