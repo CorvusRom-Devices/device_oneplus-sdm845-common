@@ -17,5 +17,5 @@ type sysfs_fpsinfo, sysfs_type, fs_type;
 
 # data
 type display_misc_file, file_type, data_file_type, core_data_file_type;
-type evolution_data_file, file_type, data_file_type,  core_data_file_type;
+type aosp_data_file, file_type, data_file_type,  core_data_file_type;
 
