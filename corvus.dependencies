@@ -24,7 +24,7 @@
     "remote"      : "gitlab"
   },
   {
-    "repository"  : "chandu078/vendor_addons_oneplus_camera",
+    "repository"  : "CorvusRom-Devices/vendor_addons_oneplus_camera",
     "target_path" : "vendor/addons/oneplus/camera"
     "branch"      : "sdm845"
     "remote"      : "github"  
