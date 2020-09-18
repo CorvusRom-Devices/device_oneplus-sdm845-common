@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, vendor/oneplus/sdm845-common/sdm845-common-vendor.mk)
 
 # Inherit packages from vendor/addons/oneplus/camera
-$(call inherit-product, vendor/addons/oneplus/camera/config.mk)
+$(call inherit-product-if-exists, vendor/addons/oneplus/camera/config.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
