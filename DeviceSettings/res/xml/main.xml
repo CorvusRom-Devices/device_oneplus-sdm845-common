@@ -15,17 +15,6 @@
     <PreferenceCategory
         android:key="audio"
         android:title="@string/audio_title">
-
-        <Preference
-            android:key="clear_speaker_settings" 
-            android:icon="@drawable/ic_speaker_cleaner_icon"
-            android:title="@string/clear_speaker_title" >
-            <intent 
-                android:action="android.intent.action.MAIN" 
-                android:targetClass="org.corvus.device.DeviceSettings.speaker.ClearSpeakerActivity"
-                android:targetPackage="org.corvus.device.DeviceSettings.speaker" />
-        </Preference>
-
         <org.corvus.device.DeviceSettings.preferences.SecureSettingProperSeekBarPreference
             android:defaultValue="0"
             android:key="earpiece_gain"

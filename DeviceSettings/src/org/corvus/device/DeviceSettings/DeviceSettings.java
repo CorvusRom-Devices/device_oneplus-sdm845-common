@@ -46,7 +46,6 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.TwoStatePreference;
 
 import org.corvus.device.DeviceSettings.FileUtils;
-import org.corvus.device.DeviceSettings.speaker.ClearSpeakerActivity;
 import org.corvus.device.DeviceSettings.doze.DozeSettingsActivity;
 import org.corvus.device.DeviceSettings.preferences.ProperSeekBarPreference;
 import org.corvus.device.DeviceSettings.preferences.VibratorCallStrengthPreference;
@@ -74,7 +73,6 @@ public class DeviceSettings extends PreferenceFragment
     public static final String KEY_NOTIF_VIBSTRENGTH = "vib_notif_strength";
     private VibratorNotifStrengthPreference mVibratorNotifStrength;
 
-    private static final String PREF_CLEAR_SPEAKER = "clear_speaker_settings";
     private static final String PREF_DOZE = "advanced_doze_settings";
     private static final String PREF_THERMAL_PROFILES = "thermal_profiles";
 
@@ -90,7 +88,6 @@ public class DeviceSettings extends PreferenceFragment
     private ListPreference mMiddleKeyPref;
     private ListPreference mBottomKeyPref;
     private static SwitchPreference mFpsInfo;
-    private Preference mClearSpeakerPref;
     private Preference mDozeSettings;
     private Preference mThermalProfiles;
     private ProperSeekBarPreference mEarpieceGain;
@@ -149,13 +146,6 @@ public class DeviceSettings extends PreferenceFragment
         mFpsInfo = (SwitchPreference) findPreference(KEY_FPS_INFO);
         mFpsInfo.setChecked(prefs.getBoolean(KEY_FPS_INFO, false));
         mFpsInfo.setOnPreferenceChangeListener(this);
-
-        mClearSpeakerPref = (Preference) findPreference(PREF_CLEAR_SPEAKER);
-        mClearSpeakerPref.setOnPreferenceClickListener(preference -> {
-            Intent intent = new Intent(getActivity().getApplicationContext(), ClearSpeakerActivity.class);
-            startActivity(intent);
-            return true;
-        });
 
         mDozeSettings = (Preference)findPreference(PREF_DOZE);
         mDozeSettings.setOnPreferenceClickListener(preference -> {
