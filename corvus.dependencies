@@ -6,7 +6,7 @@
     "remote"      : "github"
   },
   {
-    "repository"  : "CorvusRom-Devices/kernel_oneplus_sdm845",
+    "repository"  : "chandu078/kernel_oneplus_sdm845",
     "target_path" : "kernel/oneplus/sdm845",
     "branch"      : "10",
     "remote"      : "github"
