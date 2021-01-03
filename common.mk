@@ -202,6 +202,12 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_HOST_PACKAGES += \
     signapk
 
+# Sounds
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.ringtone=The_big_adventure.ogg \
+    ro.config.notification_sound=End_note.ogg \
+    ro.config.alarm_alert=Bright_morning.ogg
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
