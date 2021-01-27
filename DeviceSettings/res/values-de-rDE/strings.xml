@@ -60,10 +60,6 @@
     <string name="fps_title">Gemessene FPS</string>
     <string name="fps_info_title">FPS overlay</string>
     <string name="fps_info_summary">Overlay mit aktuellen Frames pro Sekunde anzeigen</string>
-    <!-- TouchScreen gestures -->
-    <string name="screen_gestures_panel_title">Gesten</string>
-    <string name="touchscreen_gesture_settings_title">Touchscreen-Gesten</string>
-    <string name="touchscreen_gesture_settings_summary">Verschiedene Touchscreen-Gesten für schnelle Aktionen ausführen</string>
     <!-- Notification slider -->
     <string name="notification_slider_title">Benachrichtigungs-Schieber</string>
     <string name="notification_slider_selection_dialog_title">Aktion</string>

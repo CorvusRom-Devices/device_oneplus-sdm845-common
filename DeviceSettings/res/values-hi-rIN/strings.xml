@@ -60,10 +60,6 @@
     <string name="fps_title">मापा एफपीएस</string>
     <string name="fps_info_title">एफपीएस ओवरले</string>
     <string name="fps_info_summary">वर्तमान फ्रेम प्रति सेकंड के साथ ओवरले दिखाएं</string>
-    <!-- TouchScreen gestures -->
-    <string name="screen_gestures_panel_title">इशारों</string>
-    <string name="touchscreen_gesture_settings_title">टचस्क्रीन इशारे</string>
-    <string name="touchscreen_gesture_settings_summary">त्वरित कार्यों के लिए विभिन्न टचस्क्रीन इशारों का प्रदर्शन करें</string>
     <!-- Notification slider -->
     <string name="notification_slider_title">अधिसूचना स्लाइडर</string>
     <string name="notification_slider_selection_dialog_title">कार्य</string>

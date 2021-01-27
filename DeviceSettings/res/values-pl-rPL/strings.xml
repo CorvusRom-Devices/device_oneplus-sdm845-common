@@ -60,10 +60,6 @@
     <string name="fps_title">Zmierzone FPS</string>
     <string name="fps_info_title">Nakładka FPS</string>
     <string name="fps_info_summary">Pokaż nakładkę z bieżącymi klatkami na sekundę</string>
-    <!-- TouchScreen gestures -->
-    <string name="screen_gestures_panel_title">Gesty</string>
-    <string name="touchscreen_gesture_settings_title">Gesty ekranu dotykowego</string>
-    <string name="touchscreen_gesture_settings_summary">Wykonaj różne gesty na ekranie dotykowym dla szybkich akcji</string>
     <!-- Notification slider -->
     <string name="notification_slider_title">Suwak powiadomień</string>
     <string name="notification_slider_selection_dialog_title">Akcja</string>

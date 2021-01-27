@@ -60,10 +60,6 @@
     <string name="fps_title">FPS Misurati</string>
     <string name="fps_info_title">FPS a schermo</string>
     <string name="fps_info_summary">Mostra sovrapposizione con i fotogrammi attuali al secondo</string>
-    <!-- TouchScreen gestures -->
-    <string name="screen_gestures_panel_title">Gesti</string>
-    <string name="touchscreen_gesture_settings_title">Gesti touchscreen</string>
-    <string name="touchscreen_gesture_settings_summary">Esegui vari gesti touchscreen per azioni rapide</string>
     <!-- Notification slider -->
     <string name="notification_slider_title">Cursore notifiche</string>
     <string name="notification_slider_selection_dialog_title">Azione</string>

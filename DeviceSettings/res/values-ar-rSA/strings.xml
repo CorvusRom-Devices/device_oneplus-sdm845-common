@@ -60,10 +60,6 @@
     <string name="fps_title">FPS مقيسة</string>
     <string name="fps_info_title">FPS overlay</string>
     <string name="fps_info_summary">إظهار تراكب مع الأطر الحالية في الثانية</string>
-    <!-- TouchScreen gestures -->
-    <string name="screen_gestures_panel_title">إيماءات</string>
-    <string name="touchscreen_gesture_settings_title">إيماءات الشاشة</string>
-    <string name="touchscreen_gesture_settings_summary">قم بتشغيل إيماءات مختلفة على شاشة اللمس لاتخاذ إجراءات سريعة</string>
     <!-- Notification slider -->
     <string name="notification_slider_title">شريط تمرير الإشعارات</string>
     <string name="notification_slider_selection_dialog_title">اجراء</string>

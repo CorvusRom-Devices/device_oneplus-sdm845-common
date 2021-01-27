@@ -60,10 +60,6 @@
     <string name="fps_title">FPS পরিমাপণ</string>
     <string name="fps_info_title">FPS overlay</string>
     <string name="fps_info_summary">ওভারলে দেখানো প্রতি সেকেন্ডে ফ্রেম্সের সাথে</string>
-    <!-- TouchScreen gestures -->
-    <string name="screen_gestures_panel_title">জেশ্চারস</string>
-    <string name="touchscreen_gesture_settings_title">টাচস্ক্রিন জেশ্চারস</string>
-    <string name="touchscreen_gesture_settings_summary">বিভিন্ন দ্রুত সেবার জন্য বিভিন্ন জেশ্চারর্সের ব্যবহার</string>
     <!-- Notification slider -->
     <string name="notification_slider_title">নোটিফিকেশন স্লাইডার</string>
     <string name="notification_slider_selection_dialog_title">কাজ</string>
