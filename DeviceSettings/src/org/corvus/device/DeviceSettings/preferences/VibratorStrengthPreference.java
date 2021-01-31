@@ -48,7 +48,7 @@ public class VibratorStrengthPreference extends Preference implements
     private static final String FILE_LEVEL = "/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pmi8998@3:qcom,haptics@c000/leds/vibrator/vmax_mv_user";
     private static final long testVibrationPattern[] = {0,250};
     public static final String SETTINGS_KEY = DeviceSettings.KEY_SETTINGS_PREFIX + DeviceSettings.KEY_VIBSTRENGTH;
-    public static final String DEFAULT = "500";
+    public static final String DEFAULT = "1000";
 
     public VibratorStrengthPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
