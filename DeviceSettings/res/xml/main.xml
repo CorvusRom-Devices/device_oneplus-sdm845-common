@@ -133,5 +133,10 @@
             android:icon="@drawable/ic_vibration_icon"
             android:title="@string/vib_notif_strength_title_head"
             android:summary="@string/vib_notif_strength_summary_head" />
+          
+        <Preference
+            android:icon="@drawable/ic_info_outline_24dp"
+            android:persistent="false"
+            android:summary="@string/vibration_warning" />
     </PreferenceCategory>
 </PreferenceScreen>
