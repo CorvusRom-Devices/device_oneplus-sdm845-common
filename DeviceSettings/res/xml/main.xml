@@ -137,6 +137,6 @@
         <Preference
             android:icon="@drawable/ic_info_outline_24dp"
             android:persistent="false"
-            android:summary="@string/vibration_warning" />
+            android:summary="@string/vibration_strength_warning" />
     </PreferenceCategory>
 </PreferenceScreen>
