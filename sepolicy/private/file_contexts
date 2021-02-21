@@ -1,10 +1,12 @@
+# Apex Metadata
+/data/apex/sessions(/.*)?                     u:object_r:apex_metadata_file:s0
+/data/apex/active(/.*)?                       u:object_r:apex_metadata_file:s0
+/data/apex/backup(/.*)?                       u:object_r:apex_metadata_file:s0
+/data/apex/hashtree(/.*)?                     u:object_r:apex_metadata_file:s0
+
 # Data files
 /data/misc/display(/.*)?      u:object_r:display_misc_file:s0
 /data/misc/corvus/client_package_name                u:object_r:corvus_data_file:s0
-
-# Executables
-/data/vendor/metadata_apex(/.*)?              u:object_r:apex_metadata_file:s0
-/data/vendor/metadata_apex/sessions(/.*)?     u:object_r:apex_metadata_file:s0
 
 # Files in rootfs
 /op1(/.*)?       u:object_r:op1_file:s0
