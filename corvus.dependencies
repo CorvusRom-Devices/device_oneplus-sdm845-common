@@ -6,9 +6,9 @@
     "remote"      : "github"
   },
   {
-    "repository"  : "CorvusRom-Devices/kernel_oneplus_sdm845",
+    "repository"  : "chandu078/kernel_oneplus_sdm845",
     "target_path" : "kernel/oneplus/sdm845",
-    "branch"      : "11",
+    "branch"      : "elle",
     "remote"      : "github"
   },
   {
@@ -27,6 +27,7 @@
     "repository"  : "kdrag0n/proton-clang",
     "branch"      : "master",
     "remote"      : "github",
+    "clone_depth" : "1",
     "target_path" : "prebuilts/clang/host/linux-x86/clang-proton"
   }
 ]
